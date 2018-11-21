@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="description" content="HTML5 Audio Spectrum Visualizer">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>HTML5 Audio API showcase | Audio visualizer</title>
+        <link type="text/css" rel="stylesheet" href="style/style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    </head>   
+    <body>
+        
+        <div class="container">
+            <div class="row">
+              <div class="col-12 text-center" style="margin-bottom:30px; margin-top:30px">
+                <h1>LUCRAREA DE LABORATOR nr.3</h1>
+                <strong>Comprimarea imaginei cu pierderi</strong><br>
+                <strong>Cudalb Nicanor PW11M</strong>
+              </div>
+            </div>
+          </div>
+        <div class="container">
+            <div class="row">
+                <div class="card mb-12 shadow-sm"> 
+                    <div class="card-header">
+                        <h5 class="my-0 font-weight-normal"><b>Sonograma</b></h5>
+                    </div>
+                    <div class="card-body">                
+                        <div id="wrapper">
+                            <div id="fileWrapper" class="file_wrapper">
+                                <div id="info">
+                                    Alege fisierul
+                                </div>
+                                <label for="uploadedFile"></label>
+                                <input type="file" id="uploadedFile"></input>
+                            </div>
+                            <div id="visualizer_wrapper">
+                                <canvas id='canvas' width="800" height="350"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript" src="js/html5_audio_visualizer.js"></script>
+    </body>
+</html>
